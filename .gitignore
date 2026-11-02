@@ -40,6 +40,10 @@ node_modules/
 dist/
 .eslintcache
 
+# Local configuration (never commit real passwords)
+**/application-local.properties
+local.properties
+
 # Uploads
 uploads/
 

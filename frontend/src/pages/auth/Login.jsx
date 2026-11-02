@@ -75,14 +75,6 @@ export default function Login() {
           Don't have an account?{' '}
           <Link to="/register" className="text-blue-600 hover:underline font-medium">Register</Link>
         </p>
-
-        <div className="mt-6 pt-5 border-t border-gray-100">
-          <p className="text-xs text-gray-400 text-center mb-2">Demo Accounts:</p>
-          <div className="text-xs text-gray-500 space-y-1 text-center">
-            <p>Manager: <code className="bg-gray-100 px-1 rounded">manager@company.com</code> / <code className="bg-gray-100 px-1 rounded">Manager@123</code></p>
-            <p>Employee: <code className="bg-gray-100 px-1 rounded">ankit.verma@company.com</code> / <code className="bg-gray-100 px-1 rounded">Employee@123</code></p>
-          </div>
-        </div>
       </div>
     </div>
   )
